@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Dash</title>
+    <link rel="icon" type="image/png" href="static/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div id="loading-content">
+            <img id="loading-logo" src="static/images/logo.png" alt="Logo">
+            <div id="loading-bar-container">
+                <div id="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="welcome-screen" class="hidden">
+        <div id="petals-container"></div>
+        <img class="cloud cloud-left" src="static/images/start/cloud.png" alt="Cloud">
+        <img class="cloud cloud-right" src="static/images/start/cloud.png" alt="Cloud">
+        
+        <div id="welcome-content">
+            <img id="start-text" src="static/images/start/starttext.png" alt="Rainy Dash">
+            <img id="start-button" src="static/images/start/startbutton.png" alt="Start Game">
+        </div>
+    </div>
+
+    <canvas id="game-canvas"></canvas>
+
+    <div id="game-ui" class="hidden">
+        <div id="lives-container">
+            <img id="lives-display" src="static/images/lives/three.png" alt="Lives">
+        </div>
+        <div id="score-container">
+            <img id="score-label" src="static/images/scoretext.png" alt="Score:">
+            <div id="score-display">0</div>
+        </div>
+    </div>
+    <img id="pause-guide" class="hidden" src="static/images/pause/pauseguide.png" alt="ESC to Pause">
+
+    <div id="pause-screen" class="hidden">
+        <div id="pause-petals"></div>
+        <img class="cloud cloud-left" src="static/images/pause/cloud.png" alt="Cloud">
+        <img class="cloud cloud-right" src="static/images/pause/cloud.png" alt="Cloud">
+        <div id="pause-content">
+            <img id="pause-text" src="static/images/pause/pausetext.png" alt="Paused">
+            <div id="pause-buttons">
+                <img id="resume-button" src="static/images/pause/resumebutton.png" alt="Resume">
+                <img id="pause-home-button" src="static/images/pause/homebutton.png" alt="Home">
+            </div>
+        </div>
+    </div>
+
+    <div id="game-over-screen" class="hidden">
+        <div id="game-over-petals"></div>
+        <img class="cloud cloud-left" src="static/images/gameover/cloud.png" alt="Cloud">
+        <img class="cloud cloud-right" src="static/images/gameover/cloud.png" alt="Cloud">
+        <div id="game-over-content">
+            <img id="game-over-text" src="static/images/gameover/gameovertext.png" alt="Game Over">
+            <div id="game-over-lives-container">
+                <img id="game-over-lives-display" src="static/images/lives/zero.png" alt="Zero Lives">
+            </div>
+            <div id="game-over-score-container">
+                <img class="score-label-img" src="static/images/scoretext.png" alt="Score:">
+                <div id="final-score">0</div>
+            </div>
+            <div id="game-over-buttons">
+                <img id="restart-button" src="static/images/gameover/restartbutton.png" alt="Restart Game">
+                <img id="home-button" src="static/images/gameover/homebutton.png" alt="Home">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
