@@ -80,8 +80,6 @@
 **🎨 Asset Practice**
 > A sandbox for testing custom-made game assets and UI elements
 
----
-
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=f48fb1&height=80&section=footer"/>
 </div>
