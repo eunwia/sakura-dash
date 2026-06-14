@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gemini/IDE files
+.gemini/
+.vscode/
+.idea/
+
+# Node (if any)
+node_modules/
+npm-debug.log
