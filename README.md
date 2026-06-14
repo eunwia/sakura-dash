@@ -44,7 +44,7 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div>
 
 ![HTML5 Canvas](https://img.shields.io/badge/HTML5-Canvas-ffb6c1?style=for-the-badge&logo=html5&logoColor=6e6e6e)
 ![JavaScript](https://img.shields.io/badge/JavaScript-f9c4d2?style=for-the-badge&logo=javascript&logoColor=6e6e6e)
